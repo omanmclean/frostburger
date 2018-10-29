@@ -1,0 +1,36 @@
+﻿body {
+    background: linear-gradient(#8642fe, #a745fd) no-repeat center;
+    font-family: 'Product Sans';
+    color: #fff;
+ 
+}
+
+#menu{
+    display:block;
+    padding:200px 150px 0 150px;
+    
+}
+
+    #menu .menuItems {
+        margin: 10%;
+        float: left;
+        text-align: justify;
+        width: 200px;
+    }
+
+.userOutput{
+    font-size:50px;
+    color:#fea92c;
+    float:left;
+   
+
+}
+#totalItems {
+    color: #fea92c;
+    font-size: 26px;
+    text-align: left;
+}
+
+#totalQuantity{
+    font-style:normal;
+}

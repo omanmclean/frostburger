@@ -1,0 +1,15 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+<g>
+	<path fill="#1E1E1E" d="M40,11.5c-15.7,0-28.5,12.8-28.5,28.5S24.3,68.5,40,68.5S68.5,55.7,68.5,40S55.7,11.5,40,11.5"/>
+	<path fill="none" stroke="#1E1E1E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M40,11.5
+		c-15.7,0-28.5,12.8-28.5,28.5S24.3,68.5,40,68.5S68.5,55.7,68.5,40S55.7,11.5,40,11.5z"/>
+	<g>
+		<polyline fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="41.3,49.2 
+			50.2,40 41.3,30.8 		"/>
+		
+			<line fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="50.1" y1="40" x2="29.8" y2="40"/>
+	</g>
+</g>
+</svg>

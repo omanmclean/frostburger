@@ -1,0 +1,19 @@
+﻿body {
+    background: linear-gradient(#8642fe, #a745fd) no-repeat center;
+    font-family: 'Product Sans';
+    color: #fff;
+}
+
+.item li{
+    float:left;
+    margin:50px;
+    padding:5px;
+    padding-top:100px;
+    color:black;
+}
+
+.cardInputs{
+    
+    float:left;
+    margin:100px 5px 5px 5px;
+}

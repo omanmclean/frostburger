@@ -1,0 +1,141 @@
+﻿.navbar {
+    height: 100px;
+    float: left;
+}
+
+    .navbar #open-slide {
+        float: left;
+    }
+
+
+@media(max-width:568px) {
+
+    .navbar-nav {
+        display: none
+    }
+}
+
+@media(min-width:568px) {
+    .open-slide {
+        display: none
+    }
+
+    #frostlogo {
+        display: none;
+    }
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+        width: 100px;
+        height: 40px;
+        /*background-color: #8642fe;*/
+        line-height: 40px;
+        text-align: center;
+    }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+
+            ul li a:hover {
+                font-size: 20px;
+                color: #fdcb06;
+                cursor: pointer;
+            }
+
+        ul li ul li {
+            display: none;
+            background-color: #8642fe;
+        }
+
+        ul li:hover ul li {
+            display: block;
+        }
+
+#frostlogo{
+    cursor:pointer;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0px 20px 10px rgb(44, 43, 43);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s;
+    float: left;
+}
+
+    .side-nav a {
+        padding: 10px 10px 10px 30px;
+        text-decoration: none;
+        font-size: 22px;
+        color: #242324;
+        display: block;
+        transition: 0.2s;
+    }
+
+    .side-nav #option:hover {
+        color: #8642fe;
+        font-size: 26px;
+        background: #efefef;
+        margin-left: 10px;
+        transition: 0.2s;
+    }
+
+#close:hover {
+    color: #8642fe;
+    font-size: 46px;
+    background: #fff;
+    transition: 0.2s;
+    position: absolute;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-nav-locations {
+    padding: 10px 10px 10px 30px;
+    display: none;
+}
+
+    .side-nav-locations a:hover {
+        color: #8642fe;
+        font-size: 26px;
+        background: #efefef;
+        margin-left: 10px;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+.side-nav button {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    left: 0;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    background-color: inherit;
+    font-size: 22px;
+    cursor: pointer;
+}

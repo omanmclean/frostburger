@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/NavBarStyles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>FrostBurger</title>
+
+</head>
+    <body>
+        <header>
+
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="index.html">
+                            <img src="images/frostBurgerLogoTuesdayWhite.png"
+                                 style="width:200px; height:100px" />
+                        </a>
+                    </li>
+
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li>
+                        <a>Stores</a>
+                        <ul>
+                            <li><a>Hong Kong</a></li>
+                            <li><a>Brisbane</a></li>
+                            <li><a>Dawson</a></li>
+                        </ul>
+                    </li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </nav>
+            <a id="frostlogo" href="index.html">
+                <img src="images/frostBurgerLogoTuesdayWhite.png"
+                     style="width:200px; height:100px" />
+            </a>
+
+
+        </header>
+
+        <div id="side-menu" class="side-nav">
+            <a id="close" href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a id="option" href="index.html">
+                <img src="images/frostBurgerLogoTuesdayOrangeSolid.png"
+                     style="width:200px; height:100px" />
+            </a>
+            <a id="option" href="menu.html">Menu</a>
+            <a id="option" href="checkout.html">Checkout</a>
+            <button id="option" class="dropdown-btn">Stores</button>
+            <div class="side-nav-locations">
+                <a>Hong Kong</a>
+                <a>Brisbane</a>
+                <a>Dawson</a>
+            </div>
+            <a id="option" href="#">Contact Us</a>
+        </div>
+
+        <div id="slide">
+            <div class="slideshow-container">
+                <div class="mySlides fade"> <img src="images/BurgerGallery1.jpg" style="width:1000px; height: 600px;"> </div>
+                <div class="mySlides fade"> <img src="images/BurgerGallery2.jpg" style="width:1000px; height: 600px;"> </div>
+                <div class="mySlides fade"> <img src="images/BurgerGallery3.jpg" style="width:1000px; height: 600px;"> </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+            <script type="text/javascript" src="scripts/index.js"></script>
+    </body>
+</html>

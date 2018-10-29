@@ -1,0 +1,23 @@
+
+<svg version="1.1" 
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 314.7 314.7"
+	 style="enable-background:new 0 0 314.7 314.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#231F20;stroke-width:12;stroke-miterlimit:10;}
+	.st1{fill:#231F20;stroke:#231F20;stroke-width:10;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<switch>
+	<foreignObject x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g id="Circle">
+			<circle class="st0" cx="157.3" cy="157.3" r="150.4"/>
+		</g>
+		<g id="Triangle">
+			<polygon class="st1" points="108,76.1 248.7,157.3 108,238.6 			"/>
+		</g>
+	</g>
+</switch>
+</svg>
